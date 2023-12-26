@@ -1,0 +1,263 @@
+/* .topbar .navbar .navbar-nav .nav-link{
+    padding-right: 0 !important;
+} */
+
+.header-icon {
+    width: 27px;
+    height: 27px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: white;
+}
+
+.header-icon :hover {
+    background-color: #fff;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+}
+
+.icon-symbol {
+    font-size: 12px;
+    text-align: center;
+}
+
+.user-details {
+    padding: 8px;
+    margin: 9px;
+    color: #fff;
+    background: rgb(0 0 0 / 12%);
+    max-width: fit-content;
+}
+
+.alert-count-green {
+    position: absolute;
+    top: 5px;
+    left: 32px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    background: #21d500;
+}
+
+.alert-count-green-dropdown {
+    position: absolute;
+    top: 17px;
+    left: 82px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    background: #21d500;
+}
+
+.alert-count-green-deposit {
+    position: absolute;
+    top: 17px;
+    left: 82px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    background: #21d500;
+}
+
+.alert-count-green-withdraw {
+    position: absolute;
+    top: 17px;
+    left: 194px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    background: #21d500;
+}
+
+.modal-body .title {
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.modal-body .content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal-body table tr {
+    border-style: hidden;
+}
+
+table.modal-table td {
+    padding: 10px;
+}
+
+table.cc-modal-table td {
+    padding: 2px;
+}
+
+span.confirm-message {
+    font-size: 23px;
+}
+
+.confirm-message span {
+    font-weight: 500;
+    background: #fb1616;
+    padding: 0px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.custom-alert {
+    display: none;
+}
+
+.alert {
+    background-color: rgb(0 0 0 / 95%);
+}
+
+.modal-status-success {
+    background-color: #1aab00;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.modal-status-error {
+    background-color: #fb1616;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+#image-preview {
+    max-width: 70px;
+    max-height: 200px;
+    display: none;
+}
+
+#image-preview img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.file-input {
+    display: none;
+    /* Hide the file input */
+}
+
+span#utr-exists {
+    padding: 1px;
+    color: red;
+    margin: 3px;
+    border-radius: 2px;
+}
+
+.card-title {
+    margin: 5px 0px 0px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-footer {
+    display: flex;
+    width: 23%;
+    float: right;
+    border: none;
+}
+
+.card-footer button {
+    margin: 4px;
+}
+
+.card-footer button:hover {
+    background: white;
+    color: #555555;
+}
+.mandatory-field{
+    color:#fb1616;
+}
+
+table .action-btn{
+        color: #fff;
+        padding: 0px;
+        border: none;
+        font-size: 14px;
+        background: none;
+        margin-right: 10px;
+}
+
+button.input-edit {
+    background: none;
+    color: #fff;
+    padding: 0px;
+    border: none;
+    margin-left: 4px;
+}
+.report-result {
+    display: block;
+    background: #2b4147a1;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    border: 0.2px solid #ffffff7a;
+}
+
+.report-result span {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.filter-btn{
+    float: right;
+    max-width: 150px;
+    
+}
+.filter-btn .btn{
+font-weight: 500;
+}
+
+.filter-btn .btn:hover{
+    color: #555;
+    background:#fff;
+    font-weight: 500;
+}
